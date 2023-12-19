@@ -1,0 +1,12 @@
+d={'x':10,'y':20}
+print(d)
+print(d.keys())
+print(d.values())
+d2={'x':1000,'j':500}
+print(d2)
+print(d.update(d2))
+print(d)
+print(d['x'])
+print(d.get('x'))
+print(d.pop('x'))
+print(d)
